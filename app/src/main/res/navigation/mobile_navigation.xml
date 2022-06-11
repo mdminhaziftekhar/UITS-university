@@ -7,19 +7,49 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.uitsuniversity.ui.home.HomeFragment"
+        android:name="com.uitsuniversity.Fragments.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.uitsuniversity.ui.about.AboutFragment"
+        android:name="com.uitsuniversity.Fragments.AboutFragment"
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_about" />
 
     <fragment
         android:id="@+id/nav_authorities"
-        android:name="com.uitsuniversity.ui.authorities.AuthoritiesFragment"
+        android:name="com.uitsuniversity.Fragments.AuthoritiesFragment"
         android:label="@string/menu_authorities"
         tools:layout="@layout/fragment_authorities" />
+    <fragment
+        android:id="@+id/nav_admission"
+        android:name="com.uitsuniversity.Fragments.AdmissionFragment"
+        android:label="@string/admission_label"
+        tools:layout="@layout/fragment_admission" />
+    <fragment
+        android:id="@+id/nav_scholarship"
+        android:name="com.uitsuniversity.Fragments.ScholarshipFragment"
+        android:label="@string/scholarship_label"
+        tools:layout="@layout/fragment_scholarship" />
+    <fragment
+        android:id="@+id/nav_academics"
+        android:name="com.uitsuniversity.Fragments.AcademicsFragment"
+        android:label="@string/academics_label"
+        tools:layout="@layout/fragment_academics" />
+    <fragment
+        android:id="@+id/nav_adminstration"
+        android:name="com.uitsuniversity.Fragments.AdminstrationFragment"
+        android:label="@string/adminstration_label"
+        tools:layout="@layout/fragment_adminstration" />
+    <fragment
+        android:id="@+id/nav_links"
+        android:name="com.uitsuniversity.Fragments.LinksFragment"
+        android:label="@string/links_label"
+        tools:layout="@layout/fragment_links" />
+    <fragment
+        android:id="@+id/nav_app_info"
+        android:name="com.uitsuniversity.Fragments.AppInfoFragment"
+        android:label="@string/app_info_label"
+        tools:layout="@layout/fragment_app_info" />
 </navigation>

@@ -9,9 +9,27 @@
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_about"
-            android:title="About Uits" />
+            android:title="@string/about_uits" />
         <item
             android:id="@+id/nav_authorities"
-            android:title="Authorities" />
+            android:title="@string/authorities" />
+        <item
+            android:id="@+id/nav_admission"
+            android:title = "@string/admission"/>
+        <item
+            android:id="@+id/nav_scholarship"
+            android:title="@string/scholarship" />
+        <item
+            android:id="@+id/nav_academics"
+            android:title="@string/academics" />
+        <item
+            android:id="@+id/nav_adminstration"
+            android:title="@string/adminstration"/>
+        <item
+            android:id="@+id/nav_links"
+            android:title="@string/important_links"/>
+        <item
+            android:id="@+id/nav_app_info"
+            android:title="@string/app_info"/>
     </group>
 </menu>
