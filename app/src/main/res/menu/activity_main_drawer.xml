@@ -8,10 +8,10 @@
             android:id="@+id/nav_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_about"
             android:title="About Uits" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_authorities"
             android:title="Authorities" />
     </group>
 </menu>
