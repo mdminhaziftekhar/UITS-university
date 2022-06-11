@@ -1,26 +1,22 @@
-package com.uitsuniversity.ui.authorities;
-
+package com.uitsuniversity.Fragments;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.uitsuniversity.databinding.FragmentAuthoritiesBinding;
-import com.uitsuniversity.databinding.FragmentAuthoritiesBinding;
+import com.uitsuniversity.databinding.FragmentAboutBinding;
 
-public class AuthoritiesFragment extends Fragment {
+public class AboutFragment extends Fragment {
 
-    private FragmentAuthoritiesBinding binding;
+    private FragmentAboutBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        binding = FragmentAuthoritiesBinding.inflate(inflater, container, false);
+        binding = FragmentAboutBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
         return root;
     }
 

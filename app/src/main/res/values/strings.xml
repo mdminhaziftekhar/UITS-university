@@ -8,6 +8,31 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_about">About</string>
+    <string name="menu_about">About Uits</string>
     <string name="menu_authorities">Authorities</string>
+    <string name="about_uits">About Uits</string>
+    <string name="authorities">Authorities</string>
+    <string name="admission">Admission</string>
+    <string name="scholarship"><![CDATA[Scholarship & Financial Aid]]></string>
+    <string name="academics">Academics</string>
+    <string name="important_links">Important Links</string>
+    <string name="adminstration">Adminstration</string>
+    <string name="app_info">App Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_info_details">
+        This app is a concern of UITS Authority. It\'s the official app of UITS.
+        It\'s an initiative taken by the CSE &amp; IT department to provide services through the mobile application.
+        Only Android version is available now.\nCurrent version : 1.0
+    </string>
+    <string name="dev_details">Developer\'s details :</string>
+    <string name="dev_info1">Mohammad Minhaz Iftekhar</string>
+    <string name="dev_info2">Linkedin : https://www.linkedin.com/in/minhaz-iftekhar-07a5911bb/</string>
+    <string name="dev_info3">Batch 45 , Dept. Of CSE, UITS</string>
+    <string name="admission_label">Admission</string>
+    <string name="scholarship_label">Scholarship</string>
+    <string name="academics_label">Academics</string>
+    <string name="adminstration_label">Adminstration</string>
+    <string name="links_label">Important Links</string>
+    <string name="app_info_label">App Information</string>
 </resources>
