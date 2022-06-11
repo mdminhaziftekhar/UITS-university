@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.uitsuniversity.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_about"
+        android:name="com.uitsuniversity.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.uitsuniversity.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_authorities"
+        android:name="com.uitsuniversity.ui.authorities.AuthoritiesFragment"
+        android:label="@string/menu_authorities"
+        tools:layout="@layout/fragment_authorities" />
 </navigation>
