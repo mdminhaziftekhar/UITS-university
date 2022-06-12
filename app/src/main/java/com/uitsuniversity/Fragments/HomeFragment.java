@@ -1,33 +1,38 @@
 package com.uitsuniversity.Fragments;
 
 import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
+import com.uitsuniversity.R;
+import com.uitsuniversity.WebViewController;
 
-import com.uitsuniversity.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
-
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-
-        return root;
+    public HomeFragment() {
+        // Required empty public constructor
     }
 
+
     @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        WebView webView = view.findViewById(R.id.webview_home);
+        WebSettings settings = webView.getSettings();
+        settings.setJavaScriptEnabled(true); // for javascript support
+        webView.loadUrl("https://uits.edu.bd/");
+        webView.setWebViewClient(new WebViewController());
+
+        return view;
     }
 }

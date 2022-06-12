@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.165" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
