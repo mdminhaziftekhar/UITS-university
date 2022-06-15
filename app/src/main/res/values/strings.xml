@@ -35,4 +35,15 @@
     <string name="adminstration_label">Adminstration</string>
     <string name="links_label">Important Links</string>
     <string name="app_info_label">App Information</string>
+    <string name="history">History</string>
+    <string name="vision"><![CDATA[Vision & Mission]]></string>
+    <string name="news_letter">News Letter</string>
+    <string name="press"><![CDATA[Press & Media]]></string>
+    <string name="chairman">Chairman</string>
+    <string name="board_of_trustees">Board Of Trustees</string>
+    <string name="syndicate">Syndicate</string>
+    <string name="academic_council">Academic Council</string>
+    <string name="vice_chancellor">Vice Chancellor</string>
+    <string name="pro_vice_chancellor">Pro - Vice Chancellor</string>
+    <string name="treasurer">Treasurer</string>
 </resources>
