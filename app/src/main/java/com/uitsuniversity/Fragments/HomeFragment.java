@@ -28,8 +28,15 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         WebView webView = view.findViewById(R.id.webview_home);
-        WebSettings settings = webView.getSettings();
-        settings.setJavaScriptEnabled(true); // for javascript support
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true); // for javascript support
+        webSettings.setDomStorageEnabled(true);
+        webSettings.setLoadWithOverviewMode(true);
+        webSettings.setUseWideViewPort(true);
+        webSettings.setBuiltInZoomControls(true);
+        webSettings.setDisplayZoomControls(false);
+        webSettings.setSupportZoom(true);
+        webSettings.setDefaultTextEncodingName("utf-8");
         webView.loadUrl("https://uits.edu.bd/");
         webView.setWebViewClient(new WebViewController());
 

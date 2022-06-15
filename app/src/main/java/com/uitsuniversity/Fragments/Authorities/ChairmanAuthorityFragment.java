@@ -1,4 +1,4 @@
-package com.uitsuniversity.Fragments;
+package com.uitsuniversity.Fragments.Authorities;
 
 import android.os.Bundle;
 
@@ -13,9 +13,9 @@ import android.webkit.WebView;
 import com.uitsuniversity.R;
 import com.uitsuniversity.WebViewController;
 
-public class AboutFragment extends Fragment {
+public class ChairmanAuthorityFragment extends Fragment {
 
-    public AboutFragment() {
+    public ChairmanAuthorityFragment() {
         // Required empty public constructor
     }
 
@@ -23,9 +23,9 @@ public class AboutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_about, container, false);
+        View view = inflater.inflate(R.layout.fragment_chairman_authority, container, false);
 
-        WebView webView = view.findViewById(R.id.webview_about);
+        WebView webView = view.findViewById(R.id.webview_chairman_authority);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true); // for javascript support
         webSettings.setDomStorageEnabled(true);
@@ -35,7 +35,7 @@ public class AboutFragment extends Fragment {
         webSettings.setDisplayZoomControls(false);
         webSettings.setSupportZoom(true);
         webSettings.setDefaultTextEncodingName("utf-8");
-        webView.loadUrl("https://uits.edu.bd/history/");
+        webView.loadUrl("https://uits.edu.bd/the-dreamer/");
         webView.setWebViewClient(new WebViewController());
 
         return view;
