@@ -38,7 +38,6 @@ public class UcamFragment extends Fragment {
         webView.loadUrl("http://ucam.uits.edu.bd/Security/LogIn.aspx");
         webView.setWebViewClient(new WebViewController());
 
-
         return view;
     }
 }
