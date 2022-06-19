@@ -52,4 +52,9 @@
         android:name="com.uitsuniversity.Fragments.AppInfoFragment"
         android:label="@string/app_info_label"
         tools:layout="@layout/fragment_app_info" />
+    <fragment
+        android:id="@+id/nav_ucam"
+        android:name="com.uitsuniversity.Fragments.UcamFragment"
+        android:label="Ucam"
+        tools:layout="@layout/fragment_ucam" />
 </navigation>
