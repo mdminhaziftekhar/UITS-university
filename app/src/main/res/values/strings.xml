@@ -53,4 +53,6 @@
     <string name="tuition_fees_calculator">Tuition Fees Calculator</string>
     <string name="apply_online">Apply Online</string>
     <string name="faqs">FAQs</string>
+    <string name="regular_waiver"><![CDATA[Regular Waiver & Scholarships]]></string>
+    <string name="special_waiver"><![CDATA[Special Waiver & Scholarships]]></string>
 </resources>

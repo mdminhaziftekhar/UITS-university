@@ -3,13 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.AcademicsFragment">
+    tools:context=".Fragments.scholarships.RegularScholarshipsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <WebView
+        android:id="@+id/webview_regular_waiver"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Academics Fragment"
-        android:textSize="60sp" />
-
+        android:background="#FFFFFF" />
 </FrameLayout>

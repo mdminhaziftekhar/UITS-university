@@ -5,11 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.AdminstrationFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <WebView
+        android:id="@+id/webview_adminstration"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Adminstration"
-        android:textSize="60sp" />
-
+        android:background="#FFFFFF" />
 </FrameLayout>
