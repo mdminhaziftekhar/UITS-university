@@ -11,7 +11,13 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.uitsuniversity.Fragments.Authorities.BoardAuthorityFragment;
 import com.uitsuniversity.Fragments.Authorities.ChairmanAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.CouncilAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.ProChancellorAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.SyndicateAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.TreasurerAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.ViceChancellorAuthorityFragment;
 import com.uitsuniversity.R;
 
 
@@ -47,7 +53,7 @@ public class AuthoritiesFragment extends Fragment {
         boardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BoardAuthorityFragment()).commit();
             }
         });
 
@@ -55,7 +61,7 @@ public class AuthoritiesFragment extends Fragment {
         syndicateView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new SyndicateAuthorityFragment()).commit();
             }
         });
 
@@ -63,7 +69,7 @@ public class AuthoritiesFragment extends Fragment {
         councilView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CouncilAuthorityFragment()).commit();
             }
         });
 
@@ -71,7 +77,7 @@ public class AuthoritiesFragment extends Fragment {
         chancellorView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ViceChancellorAuthorityFragment()).commit();
             }
         });
 
@@ -79,7 +85,7 @@ public class AuthoritiesFragment extends Fragment {
         proChancellorView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProChancellorAuthorityFragment()).commit();
             }
         });
 
@@ -87,7 +93,7 @@ public class AuthoritiesFragment extends Fragment {
         treasurerView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TreasurerAuthorityFragment()).commit();
             }
         });
 

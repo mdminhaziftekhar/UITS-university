@@ -5,11 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.Authorities.ProChancellorAuthorityFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <WebView
+        android:id="@+id/webview_provc_authority"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Pro vice chancellor"
-        android:textSize="34sp" />
-
+        android:background="#FFFFFF" />
 </FrameLayout>
