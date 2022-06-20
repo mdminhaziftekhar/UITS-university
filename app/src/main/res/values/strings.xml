@@ -47,4 +47,10 @@
     <string name="pro_vice_chancellor">Pro - Vice Chancellor</string>
     <string name="treasurer">Treasurer</string>
     <string name="ucam">Ucam</string>
+    <string name="undergraduate_programs">Undergraduate Programs</string>
+    <string name="graduate_programs">Graduate Programs</string>
+    <string name="tuition_fees">Tuition Fees</string>
+    <string name="tuition_fees_calculator">Tuition Fees Calculator</string>
+    <string name="apply_online">Apply Online</string>
+    <string name="faqs">FAQs</string>
 </resources>

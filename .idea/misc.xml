@@ -16,11 +16,14 @@
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_adminstration.xml" value="0.17572463768115942" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_admission.xml" value="0.17572463768115942" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_app_info.xml" value="0.17572463768115942" />
+        <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_apply_online.xml" value="0.16304347826086957" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_authorities.xml" value="0.25" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_board_authority.xml" value="0.1634963768115942" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_chairman_authority.xml" value="0.1" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_council_authority.xml" value="0.1634963768115942" />
+        <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_faqs.xml" value="0.16304347826086957" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
+        <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_graduate_program.xml" value="0.16304347826086957" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_links.xml" value="0.17572463768115942" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_pro_chancellor_authority.xml" value="0.1634963768115942" />
@@ -28,7 +31,10 @@
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_syndicate_authority.xml" value="0.1634963768115942" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_treasurer_authority.xml" value="0.1634963768115942" />
+        <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_tuition_fees.xml" value="0.16304347826086957" />
+        <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_tuition_fees_calculator.xml" value="0.16304347826086957" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_ucam.xml" value="0.16304347826086957" />
+        <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_undergraduate_program.xml" value="0.16304347826086957" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/fragment_vice_chancellor_authority.xml" value="0.1634963768115942" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/layout/nav_header_main.xml" value="0.33" />
         <entry key="..\:/Documents/Android Projects/UITS University/app/src/main/res/menu/activity_main_drawer.xml" value="0.67" />
