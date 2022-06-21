@@ -8,6 +8,9 @@
             android:id="@+id/nav_home"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/nav_ucam"
+            android:title="@string/ucam" />
+        <item
             android:id="@+id/nav_about"
             android:title="@string/about_uits" />
         <item
@@ -20,15 +23,9 @@
             android:id="@+id/nav_scholarship"
             android:title="@string/scholarship" />
         <item
-            android:id="@+id/nav_academics"
-            android:title="@string/academics" />
-        <item
             android:id="@+id/nav_adminstration"
             android:title="@string/adminstration"/>
-        <item
-            android:id="@+id/nav_links"
-            android:title="@string/important_links"/>
-        <item
+                <item
             android:id="@+id/nav_app_info"
             android:title="@string/app_info"/>
     </group>

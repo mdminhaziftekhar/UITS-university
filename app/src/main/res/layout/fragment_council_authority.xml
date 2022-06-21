@@ -5,11 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.Authorities.CouncilAuthorityFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <WebView
+        android:id="@+id/webview_academic_council_authority"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Academic Council"
-        android:textSize="34sp" />
-
+        android:background="#FFFFFF" />
 </FrameLayout>

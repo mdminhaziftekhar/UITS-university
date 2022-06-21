@@ -15,9 +15,11 @@
         >
 
         <LinearLayout
+            android:id="@+id/chairman_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
             >
             <ImageView
                 android:id="@+id/imageView2"
@@ -29,22 +31,23 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/logo2" />
             <TextView
-                android:id="@+id/chairman_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:text="@string/chairman"
                 android:textColor="#AA0A0A"
                 android:textSize="16sp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
                 />
 
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/board_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
             >
             <ImageView
                 android:id="@+id/imageView3"
@@ -55,11 +58,10 @@
                 app:srcCompat="@drawable/logo2" />
 
             <TextView
-                android:id="@+id/board_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/board_of_trustees"
                 android:textColor="#AA0A0A"
                 android:textSize="16sp"
@@ -69,9 +71,11 @@
 
 
         <LinearLayout
+            android:id="@+id/syndicate_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
             >
             <ImageView
                 android:id="@+id/imageView4"
@@ -82,11 +86,10 @@
                 app:srcCompat="@drawable/logo2" />
 
             <TextView
-                android:id="@+id/syndicate_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/syndicate"
                 android:textColor="#AA0A0A"
                 android:textSize="16sp"
@@ -95,9 +98,11 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/council_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
             >
             <ImageView
                 android:id="@+id/imageView5"
@@ -108,11 +113,10 @@
                 app:srcCompat="@drawable/logo2" />
 
             <TextView
-                android:id="@+id/council_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/academic_council"
                 android:textColor="#AA0A0A"
                 android:textSize="16sp"
@@ -120,9 +124,11 @@
 
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/chancellor_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
             >
             <ImageView
                 android:id="@+id/imageView6"
@@ -133,11 +139,10 @@
                 app:srcCompat="@drawable/logo2" />
 
             <TextView
-                android:id="@+id/chancellor_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/vice_chancellor"
                 android:textColor="#AA0A0A"
                 android:textSize="16sp"
@@ -146,9 +151,11 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/pro_chancellor_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
             >
             <ImageView
                 android:id="@+id/imageView7"
@@ -159,11 +166,10 @@
                 app:srcCompat="@drawable/logo2" />
 
             <TextView
-                android:id="@+id/pro_chancellor_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/pro_vice_chancellor"
                 android:textColor="#AA0A0A"
                 android:textSize="16sp"
@@ -171,9 +177,11 @@
 
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/treasurer_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
             >
             <ImageView
                 android:id="@+id/imageView8"
@@ -184,11 +192,10 @@
                 app:srcCompat="@drawable/logo2" />
 
             <TextView
-                android:id="@+id/treasurer_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/treasurer"
                 android:textColor="#AA0A0A"
                 android:textSize="16sp"

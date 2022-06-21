@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.Authorities.ProChancellorAuthorityFragment">
+    tools:context=".Fragments.admission.TuitionFeesCalculatorFragment">
 
     <WebView
-        android:id="@+id/webview_provc_authority"
+        android:id="@+id/webview_tuition_calcu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFFFFF" />

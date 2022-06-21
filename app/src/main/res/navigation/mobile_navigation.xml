@@ -32,24 +32,20 @@
         android:name="com.uitsuniversity.Fragments.ScholarshipFragment"
         android:label="@string/scholarship_label"
         tools:layout="@layout/fragment_scholarship" />
-    <fragment
-        android:id="@+id/nav_academics"
-        android:name="com.uitsuniversity.Fragments.AcademicsFragment"
-        android:label="@string/academics_label"
-        tools:layout="@layout/fragment_academics" />
+
     <fragment
         android:id="@+id/nav_adminstration"
         android:name="com.uitsuniversity.Fragments.AdminstrationFragment"
         android:label="@string/adminstration_label"
         tools:layout="@layout/fragment_adminstration" />
     <fragment
-        android:id="@+id/nav_links"
-        android:name="com.uitsuniversity.Fragments.LinksFragment"
-        android:label="@string/links_label"
-        tools:layout="@layout/fragment_links" />
-    <fragment
         android:id="@+id/nav_app_info"
         android:name="com.uitsuniversity.Fragments.AppInfoFragment"
         android:label="@string/app_info_label"
         tools:layout="@layout/fragment_app_info" />
+    <fragment
+        android:id="@+id/nav_ucam"
+        android:name="com.uitsuniversity.Fragments.UcamFragment"
+        android:label="Ucam"
+        tools:layout="@layout/fragment_ucam" />
 </navigation>

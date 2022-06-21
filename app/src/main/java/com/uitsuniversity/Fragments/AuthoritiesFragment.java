@@ -8,9 +8,16 @@ import androidx.fragment.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.uitsuniversity.Fragments.Authorities.BoardAuthorityFragment;
 import com.uitsuniversity.Fragments.Authorities.ChairmanAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.CouncilAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.ProChancellorAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.SyndicateAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.TreasurerAuthorityFragment;
+import com.uitsuniversity.Fragments.Authorities.ViceChancellorAuthorityFragment;
 import com.uitsuniversity.R;
 
 
@@ -26,13 +33,13 @@ public class AuthoritiesFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_authorities, container, false);
 
-        TextView chairmanView = view.findViewById(R.id.chairman_text);
-        TextView boardView = view.findViewById(R.id.board_text);
-        TextView syndicateView = view.findViewById(R.id.syndicate_text);
-        TextView councilView = view.findViewById(R.id.council_text);
-        TextView chancellorView = view.findViewById(R.id.chancellor_text);
-        TextView proChancellorView = view.findViewById(R.id.pro_chancellor_text);
-        TextView treasurerView = view.findViewById(R.id.treasurer_text);
+        LinearLayout chairmanView = (LinearLayout) view.findViewById(R.id.chairman_text);
+        LinearLayout boardView = (LinearLayout) view.findViewById(R.id.board_text);
+        LinearLayout syndicateView = (LinearLayout) view.findViewById(R.id.syndicate_text);
+        LinearLayout councilView = (LinearLayout) view.findViewById(R.id.council_text);
+        LinearLayout chancellorView = (LinearLayout) view.findViewById(R.id.chancellor_text);
+        LinearLayout proChancellorView = (LinearLayout) view.findViewById(R.id.pro_chancellor_text);
+        LinearLayout treasurerView = (LinearLayout) view.findViewById(R.id.treasurer_text);
 
         //On click for chairman authority
         chairmanView.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +53,7 @@ public class AuthoritiesFragment extends Fragment {
         boardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BoardAuthorityFragment()).commit();
             }
         });
 
@@ -54,7 +61,7 @@ public class AuthoritiesFragment extends Fragment {
         syndicateView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new SyndicateAuthorityFragment()).commit();
             }
         });
 
@@ -62,7 +69,7 @@ public class AuthoritiesFragment extends Fragment {
         councilView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CouncilAuthorityFragment()).commit();
             }
         });
 
@@ -70,7 +77,7 @@ public class AuthoritiesFragment extends Fragment {
         chancellorView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ViceChancellorAuthorityFragment()).commit();
             }
         });
 
@@ -78,7 +85,7 @@ public class AuthoritiesFragment extends Fragment {
         proChancellorView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProChancellorAuthorityFragment()).commit();
             }
         });
 
@@ -86,7 +93,7 @@ public class AuthoritiesFragment extends Fragment {
         treasurerView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TreasurerAuthorityFragment()).commit();
             }
         });
 

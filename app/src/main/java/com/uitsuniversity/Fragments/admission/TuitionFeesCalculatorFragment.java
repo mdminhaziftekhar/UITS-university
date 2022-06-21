@@ -1,4 +1,4 @@
-package com.uitsuniversity.Fragments.Authorities;
+package com.uitsuniversity.Fragments.admission;
 
 import android.os.Bundle;
 
@@ -13,21 +13,17 @@ import android.webkit.WebView;
 import com.uitsuniversity.R;
 import com.uitsuniversity.WebViewController;
 
-public class ViceChancellorAuthorityFragment extends Fragment {
+public class TuitionFeesCalculatorFragment extends Fragment {
 
-
-    public ViceChancellorAuthorityFragment() {
+    public TuitionFeesCalculatorFragment() {
         // Required empty public constructor
     }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_vice_chancellor_authority, container, false);
+        View view = inflater.inflate(R.layout.fragment_tuition_fees_calculator, container, false);
 
-        WebView webView = view.findViewById(R.id.webview_vice_chancellor_authority);
+        WebView webView = view.findViewById(R.id.webview_tuition_calcu);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true); // for javascript support
         webSettings.setDomStorageEnabled(true);
@@ -37,7 +33,7 @@ public class ViceChancellorAuthorityFragment extends Fragment {
         webSettings.setDisplayZoomControls(false);
         webSettings.setSupportZoom(true);
         webSettings.setDefaultTextEncodingName("utf-8");
-        webView.loadUrl("https://uits.edu.bd/vice-chancellor/");
+        webView.loadUrl("https://uits.edu.bd/tuition-fees-calculator/");
         webView.setWebViewClient(new WebViewController());
 
         return view;

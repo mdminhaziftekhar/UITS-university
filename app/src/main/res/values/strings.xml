@@ -21,9 +21,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_info_details">
-        This app is a concern of UITS Authority. It\'s the official app of UITS.
-        It\'s an initiative taken by the CSE &amp; IT department to provide services through the mobile application.
-        Only Android version is available now.\nCurrent version : 1.0
+        This app is a concern of ICT Cell, UITS. Only Android version is available now.\nCurrent version : 1.0.\n\nMade by :
+        \nThis App was made with the help of Md. Monirul Islam, Assistant Professor and Director, ICT Cell.
+        And was made by a student of CSE Department, UITS.
     </string>
     <string name="dev_details">Developer\'s details :</string>
     <string name="dev_info1">Mohammad Minhaz Iftekhar</string>
@@ -46,4 +46,13 @@
     <string name="vice_chancellor">Vice Chancellor</string>
     <string name="pro_vice_chancellor">Pro - Vice Chancellor</string>
     <string name="treasurer">Treasurer</string>
+    <string name="ucam">Ucam</string>
+    <string name="undergraduate_programs">Undergraduate Programs</string>
+    <string name="graduate_programs">Graduate Programs</string>
+    <string name="tuition_fees">Tuition Fees</string>
+    <string name="tuition_fees_calculator">Tuition Fees Calculator</string>
+    <string name="apply_online">Apply Online</string>
+    <string name="faqs">FAQs</string>
+    <string name="regular_waiver"><![CDATA[Regular Waiver & Scholarships]]></string>
+    <string name="special_waiver"><![CDATA[Special Waiver & Scholarships]]></string>
 </resources>
