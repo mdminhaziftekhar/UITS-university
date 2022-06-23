@@ -6,27 +6,35 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_home"
+            android:menuCategory="secondary"/>
         <item
             android:id="@+id/nav_ucam"
-            android:title="@string/ucam" />
+            android:title="@string/ucam"
+            android:menuCategory="secondary"/>
         <item
             android:id="@+id/nav_about"
-            android:title="@string/about_uits" />
+            android:title="@string/about_uits"
+            android:menuCategory="secondary"/>
         <item
             android:id="@+id/nav_authorities"
-            android:title="@string/authorities" />
+            android:title="@string/authorities"
+            android:menuCategory="secondary"/>
         <item
             android:id="@+id/nav_admission"
-            android:title = "@string/admission"/>
+            android:title = "@string/admission"
+            android:menuCategory="secondary"/>
         <item
             android:id="@+id/nav_scholarship"
-            android:title="@string/scholarship" />
+            android:title="@string/scholarship"
+            android:menuCategory="secondary"/>
         <item
             android:id="@+id/nav_adminstration"
-            android:title="@string/adminstration"/>
-                <item
+            android:title="@string/adminstration"
+            android:menuCategory="secondary"/>
+        <item
             android:id="@+id/nav_app_info"
-            android:title="@string/app_info"/>
+            android:title="@string/app_info"
+            android:menuCategory="secondary"/>
     </group>
 </menu>
